@@ -1,0 +1,38 @@
+body {
+  font-family: 'Opensans', sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+h2 {
+  font-family: 'Opensans', sans-serif;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-family: 'Opensans', sans-serif;
+  font-size: .7vw;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.container-fluid1 {
+  padding: 5% 5%;
+}
+.row {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.col {
+  justify-content: center;
+  text-align: center;
+}
+
