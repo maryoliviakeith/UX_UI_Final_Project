@@ -28,16 +28,16 @@ h1 {
   }
   .container-fluid {
     display: flex;
-    padding: 5% 5%;
     background-color: gray;
     margin-top: 5%;
     align-items: center;
+    align-content: center;
   }
   .row {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 5% 5%;
+    margin-top: 5%;
   }
   .col {
     justify-content: center;
