@@ -44,5 +44,8 @@ h1 {
     text-align: center;
     padding: 5% 5%;
   }
+  .navbar-nav {
+    align-items: right;
+  }
 
   
