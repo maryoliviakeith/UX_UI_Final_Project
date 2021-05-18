@@ -30,7 +30,7 @@ h1 {
   .container-fluid {
     display: flex;
     padding: 5% 5%;
-    
+    background-color: gray;
   }
   .row {
     justify-content: center;
@@ -43,8 +43,4 @@ h1 {
     text-align: center;
   }
 
-  .navbar-text {
-    align-items: right;
-  }
-  
   
