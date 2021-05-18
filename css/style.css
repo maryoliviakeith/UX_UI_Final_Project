@@ -1,0 +1,46 @@
+body {
+    font-family: 'Bebas', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+h1 {
+  font-family: 'Bebas', sans-serif;
+  font-size: 1.2vw;
+}
+
+  h2 {
+    font-family: 'Bebas', sans-serif;
+    font-size: 1 vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  h3 {
+    font-family: 'Bebas', sans-serif;
+    font-size: .7vw;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  p {
+    font-family: "Bebas", sans-serif;
+    text-align: center;
+  }
+  .container-fluid {
+    display: flex;
+    padding: 5% 5%;
+    background-color: gray;
+  }
+  .row {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5% 5%;
+  }
+  .col {
+    justify-content: center;
+    text-align: center;
+  }
+
+  
