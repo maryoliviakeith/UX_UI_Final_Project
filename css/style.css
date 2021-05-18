@@ -17,8 +17,7 @@ h1 {
   }
   h3 {
     font-family: 'Bebas', sans-serif;
-    font-size: .7vw;
-    font-weight: bold;
+    font-size: .5vw;
     text-align: center;
     padding-bottom: 2%;
   }
@@ -29,18 +28,24 @@ h1 {
   }
   .container-fluid {
     display: flex;
-    padding: 5% 5%;
     background-color: gray;
+    margin-top: 5%;
+    align-items: center;
+    align-content: center;
   }
   .row {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 5% 5%;
+    margin-top: 5%;
   }
   .col {
     justify-content: center;
     text-align: center;
+    padding: 5% 5%;
+  }
+  .navbar-nav {
+    align-items: right;
   }
 
   
