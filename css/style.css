@@ -22,14 +22,16 @@ body {
     font-family: "Lato", sans-serif;
     text-align: center;
   }
-  .container-fluid1 {
+  .container-fluid {
+    display: flex;
     padding: 5% 5%;
+    
   }
   .row {
     justify-content: center;
-    text-align: center;
     align-items: center;
     align-content: center;
+    padding: 5% 5%;
   }
   .col {
     justify-content: center;
