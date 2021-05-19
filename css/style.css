@@ -78,4 +78,6 @@ h1 {
     text-decoration: none;
 }
 
-  
+.scrolling-wrapper{
+	overflow-x: auto;
+}
