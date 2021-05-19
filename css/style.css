@@ -78,6 +78,17 @@ h1 {
     text-decoration: none;
 }
 
-.scrolling-wrapper{
-	overflow-x: auto;
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.carddiv {
+  overflow: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
