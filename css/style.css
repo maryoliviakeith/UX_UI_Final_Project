@@ -11,7 +11,7 @@ h1 {
 
   h2 {
     font-family: 'Bebas', sans-serif;
-    font-size: 1 vw;
+    font-size: 1vw;
     font-weight: bold;
     text-align: center;
   }
@@ -29,8 +29,6 @@ h1 {
 
   .container-fluid {
     display: flex;
-    background-color: gray;
-    margin-top: 5%;
     align-items: center;
     align-content: center;
   }
@@ -49,6 +47,8 @@ h1 {
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
+  font-size: 1em;
+  padding: 14px 16px;
 }
 .navbar-brand img {
   padding-right: 15px;
@@ -108,4 +108,8 @@ li a {
   width: 100%;
   margin-top: 2%;
   font-size: .5vw;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 100%;
 }
