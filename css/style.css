@@ -26,6 +26,18 @@ h1 {
     font-family: "Bebas", sans-serif;
     text-align: center;
   }
+.p-2 {
+  font-family: 'Bebas', sans-serif;
+  font-size: xx-small;
+  align-items: center;
+  justify-content: center;
+}
+
+div.flex-column {
+  align-items: center;
+  justify-content: center;
+}
+
   .container-fluid {
     display: flex;
     background-color: gray;
