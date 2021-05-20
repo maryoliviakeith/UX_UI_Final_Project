@@ -21,16 +21,26 @@ h1 {
     text-align: center;
     padding-bottom: 2%;
   }
-  
   p {
     font-family: "Bebas", sans-serif;
     text-align: center;
   }
-
   .container-fluid {
     display: flex;
     align-items: center;
     align-content: center;
+  }
+  .container-fluid-2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 20%;
+  }
+  .image-side {
+    width: 100%;
+    position: absolute;
+    top: 150px;
   }
 
 /* Navigation bar */
@@ -127,6 +137,7 @@ li a {
 .peopleimg {
   width: 25%;
   align-items: center;
+  margin-top: 2%;
 }
 
 .anotherherobox {
@@ -134,4 +145,4 @@ li a {
   text-align: center;
   text-overflow: inherit;
   }
-  
+
