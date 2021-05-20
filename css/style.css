@@ -100,6 +100,22 @@ h1 {
     text-decoration: none;
 }
 
+.editprodiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.papahero {
+  display: flex;
+}
+
+.getstarted {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 html {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -115,11 +131,56 @@ html {
 /*  white-space: nowrap; */
 }
 
-.card-block {
-  min-height: 300px;
+.cardscroll {
+  min-height: 393px;
+  min-width: 322px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none !important;
+}
+
+.cardq {
+  min-height: 303px;
+  min-width: 322;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+}
+
+.bg-light {
+  background: #EFF2F7 !important;
+}
+
+.blue {
+  background-color: #009DDF !important;
+  color: #FFFFFF !important;
+}
+
+.horizontalscroll h3 {
+  font-size: 20px !important;
+  font-family: 'Bebas Neue';
+  padding-top: 30px;
+}
+
+.questions h3 {
+  font-size: 20px !important;
+  font-family: 'Bebas Neue';
+  padding-top: 30px;
+}
+.questiontitle {
+  font-size: 75px !important;
+  font-family: 'Bebas Neue'!important;
+}
+.intro {
+  font-size: 75px !important;
+  font-family: 'Bebas Neue'!important;
+}
+
+.appointment h1 {
+  font-size: 75px !important;
+  font-family: 'Bebas Neue' !important;
 }
 
 .dropdowns {
@@ -142,17 +203,50 @@ h6 {
   text-align: center;
 }
 
+.linepic {
+  height: 50%;
+}
+.calpic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.transpic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.insurepic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.pricepic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.paypic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
+.reviewpic {
+  height: 150px;
+  width: auto;
+  padding-bottom: 15px;
+}
 .chatpic {
-  height: 114px;
-  width: 118px;
+  height: 115px;
+  width: auto;
 }
 .callpic {
-  height: 108px;
-  width: 106px;
+  height: 115px;
+  width: auto;
 }
 .emailpic {
-  height: 122px;
-  width: 116px;
+  height: 115px;
+  width: auto;
 }
 
 .questions {
