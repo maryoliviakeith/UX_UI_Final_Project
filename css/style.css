@@ -104,6 +104,7 @@ h1 {
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  align-items: baseline;
 }
 
 .papahero {
@@ -149,10 +150,6 @@ html {
   border: none !important;
 }
 
-.bg-light {
-  background: #EFF2F7 !important;
-}
-
 .blue {
   background-color: #009DDF !important;
   color: #FFFFFF !important;
@@ -162,6 +159,10 @@ html {
   font-size: 20px !important;
   font-family: 'Bebas Neue';
   padding-top: 30px;
+}
+.horizontalscroll h2 {
+  font-size: 40px !important;
+  font-family: 'Bebas Neue';
 }
 
 .questions h3 {
@@ -188,6 +189,15 @@ html {
   justify-content: space-evenly;
 }
 
+.pleaseleft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.down {
+  width: 150px;
+}
+
 h6 {
   justify-content: start;
 }
@@ -201,6 +211,19 @@ h6 {
   justify-content: center;
   width: 200px;
   text-align: center;
+  font-family: 'Bebas Neue';
+  color: #FFFFFF;
+  background-color: #1f2d3d !important;
+  border: none !important;
+}
+
+.findtrans {
+  width: 245px;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  color: #ffffff;
+  background-color: #3c4858 !important;
+  border: none !important;
 }
 
 .linepic {
