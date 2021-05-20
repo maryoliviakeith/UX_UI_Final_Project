@@ -48,7 +48,7 @@ h1 {
   margin-left: auto;
   margin-right: 0 !important;
   font-size: 1em;
-  padding: 14px 16px;
+  padding: 5px 5px;
 }
 .navbar-brand img {
   padding-right: 15px;
@@ -112,4 +112,8 @@ li a {
 .navbar-brand img {
   padding-right: 15px;
   width: 100%;
+}
+
+.column {
+  width: 25%;
 }
