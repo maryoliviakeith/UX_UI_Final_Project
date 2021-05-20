@@ -44,12 +44,21 @@ h1 {
     justify-content: center;
     margin-top: 3%;
   }
-
-  .image-side {
-    width: 100%;
-    position: absolute;
-    top: 150px;
+  .container-fluid-4 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #EFF2F7;
   }
+
+
+.image-side {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
 
 /* Navigation bar */
 
@@ -139,7 +148,7 @@ li a {
   background-color: #EFF2F7;
   align-items: center;
   text-align: center;
-  text-overflow: inherit;
+  margin-bottom: 3%;
 }
 
 .peopleimg {
