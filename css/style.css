@@ -58,7 +58,6 @@ h1 {
     align-items: center;
     align-content: center;
     margin-bottom: url("../images/Blocked_Banner_V2.png");
-    margin-bottom: 2%;
   }
   .container-fluid-3 {
     display: flex;
@@ -118,7 +117,7 @@ font-weight: lighter;
 }
 .col-table {
   width: 80%;
-  padding: 15px;
+  padding: 15px !important;
 }
 
 .btn-primary{
@@ -129,7 +128,6 @@ font-weight: lighter;
   font-family: "Bebas Neue";
   font-weight: lighter !important;
   color: white;
-  margin-left: 50px;
   padding: 10px 50px !important;
   display: flex;
 }
