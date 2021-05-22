@@ -38,7 +38,7 @@ h1 {
   }
   .container-fluid-2 {
     display: flex;
-    background-image: url("../images/Blocked_Banner.png");
+    background-image: url("../images/Blocked_Banner_V2.png");
     background-size: cover;
     align-items: center;
     align-content: center;
@@ -63,16 +63,20 @@ h1 {
 
 
 .image-side {
-  width: 80%;
-  position: absolute;
-  left: 200px;
-  top: 200px;
+width: 80%;
+position: absolute;
+left: 200px;
+top: 200px;
 }
-.card2 {
+.card {
 width: 80%;
 position: absolute;
 left: 150px;
 top: 100px;
+border: white !important;
+}
+.card-header {
+  background-color: white !important;
 }
 
 /* Navigation bar */
