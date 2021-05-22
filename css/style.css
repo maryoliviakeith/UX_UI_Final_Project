@@ -42,7 +42,8 @@ h1 {
     background-size: cover;
     align-items: center;
     align-content: center;
-    margin-bottom: 20%;
+    margin-bottom: url("../images/Blocked_Banner_V2.png");
+    margin-bottom: 2%;
   }
 
   .container-fluid-3 {
@@ -61,22 +62,46 @@ h1 {
     background-color: #EFF2F7;
   }
 
-
 .image-side {
-width: 80%;
+width: 70%;
 position: absolute;
 left: 200px;
-top: 200px;
+top: 275px;
+display: flex;
 }
 .card {
 width: 80%;
+height: auto;
 position: absolute;
 left: 150px;
-top: 100px;
+top: 10px;
 border: white !important;
 }
 .card-header {
-  background-color: white !important;
+background-color: white !important;
+font-family: "Bebas Neue";
+font-size: 75px;
+}
+.card-title {
+font-size: 12px;
+font-style: oblique;
+}
+.col-buttons {
+justify-content: center;
+}
+.card-bottom-text {
+margin-top: 2%;
+color: #009DDF;
+font-family: "Bebas Neue";
+font-size: 12px;
+font-weight: lighter;
+}
+.btn-primary{
+  align-items: center;
+  justify-content: center;
+  background-color: #3C4858 !important;
+  font-family: "Bebas Neue";
+  color: white
 }
 
 /* Navigation bar */
@@ -93,7 +118,6 @@ border: white !important;
 .navbar {
   background-color: #C2CEDB;
 }
-
 
 .navbar-nav {
   margin-left: auto;
