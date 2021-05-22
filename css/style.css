@@ -68,10 +68,7 @@ h1 {
 }
 
 .image-side {
-width: 70%;
-position: absolute;
-left: 200px;
-top: 275px;
+width: 110%;
 display: flex;
 }
 .carddev {
