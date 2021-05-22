@@ -97,6 +97,7 @@ border: white !important;
 background-color:transparent !important;
 font-family: "Bebas Neue";
 font-size: 75px;
+border-color: transparent !important;
 }
 .card-title {
 font-family: 'AvenirRegular';
@@ -120,7 +121,7 @@ font-weight: lighter;
   padding: 15px !important;
 }
 
-.btn-primary{
+.btn-primary1{
   align-items: center !important;
   justify-content: center !important;
   background-color: #3C4858 !important;
@@ -129,8 +130,25 @@ font-weight: lighter;
   font-weight: lighter !important;
   color: white;
   padding: 10px 50px !important;
+  margin-top: 4%;
   display: flex;
 }
+.btn-primary2{
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: white !important;
+  border-color:  #3C4858 !important;
+  font-family: "Bebas Neue";
+  font-weight: lighter !important;
+  color:#3C4858;
+  padding: 10px 50px !important;
+  margin-left: 45px;
+  margin-top: 4%;
+  display: flex;
+}
+
+
+
 .customNav {
   position: fixed;
   width: 100%;
