@@ -1,10 +1,21 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 body {
-    font-family: 'Bebas', sans-serif;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-
-  }
+font-family: 'Bebas', sans-serif;
+margin: 0;
+padding: 0;
+align-items: center;
+}
+@font-face {
+  font-family: 'AvenirBold';
+  src: url('../fonts/AvenirLTStd-Black.otf');
+}
+@font-face {
+  font-family: 'AvenirRegular';
+  src: url('../fonts/AvenirLTStd-Book.otf');
+}
 h1 {
   font-family: 'Bebas', sans-serif;
   font-size: 1.2vw;
@@ -21,6 +32,9 @@ h1 {
     font-size: .5vw;
     text-align: center;
     padding-bottom: 2%;
+  }
+  h4 {
+  font-family: 'AvenirRegular'
   }
   p {
     font-family: "Bebas", sans-serif;
@@ -58,7 +72,6 @@ h1 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-top: 5%;
     background-color: #EFF2F7;
   }
 
@@ -68,7 +81,8 @@ h1 {
 }
 
 .image-side {
-width: 110%;
+min-width: 10vw;
+width: 55vw;
 display: flex;
 float: right;
 }
@@ -86,8 +100,8 @@ font-family: "Bebas Neue";
 font-size: 75px;
 }
 .card-title {
+font-family: 'AvenirRegular';
 font-size: 12px;
-font-style: oblique;
 }
 .col-buttons {
 justify-content: center !important;
@@ -169,9 +183,6 @@ font-weight: lighter;
   align-items: flex-end;
 }
 
-html {
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .carddiv {
@@ -551,4 +562,10 @@ font-size: 32px;
   .down {
     width: 480px !important;
   }
+}
+.tr {
+  background-color:  red !important;
+}
+.th {
+ background-color: blue !important;
 }
