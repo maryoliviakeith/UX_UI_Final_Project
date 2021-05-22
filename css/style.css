@@ -106,8 +106,13 @@ font-weight: lighter;
   align-items: center !important;
   justify-content: center !important;
   background-color: #3C4858 !important;
+  border-color:  #3C4858 !important;
   font-family: "Bebas Neue";
-  color: white
+  font-weight: lighter !important;
+  color: white;
+  margin-left: 50px;
+  padding: 10px 50px !important;
+  display: flex;
 }
 .customNav {
   position: fixed;
