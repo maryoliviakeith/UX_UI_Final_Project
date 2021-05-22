@@ -101,6 +101,10 @@ font-family: "Bebas Neue";
 font-size: 12px;
 font-weight: lighter;
 }
+.card-img-top {
+  margin-left: 10%;
+}
+
 .btn-primary{
   align-items: center !important;
   justify-content: center !important;
