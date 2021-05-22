@@ -70,6 +70,7 @@ h1 {
 .image-side {
 width: 110%;
 display: flex;
+float: right;
 }
 .carddev {
 width: 80%;
