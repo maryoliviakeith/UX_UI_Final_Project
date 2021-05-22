@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    
+
   }
 h1 {
   font-family: 'Bebas', sans-serif;
@@ -75,6 +75,7 @@ h1 {
 .navbar {
   background-color: #C2CEDB;
 }
+
 
 .navbar-nav {
   margin-left: auto;
