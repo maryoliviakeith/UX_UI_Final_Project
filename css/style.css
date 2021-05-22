@@ -116,6 +116,10 @@ font-weight: lighter;
 .card-img-top {
   margin-left: 10%;
 }
+.col-table {
+  width: 80%;
+  padding: 15px;
+}
 
 .btn-primary{
   align-items: center !important;
@@ -372,6 +376,11 @@ li a {
 .column {
   width: 75%;
 }
+.table-responsive {
+  width: 60% !important;
+  justify-content: center;
+  align-items: center;
+}
 .sectionhero {
   background-color: #EFF2F7;
   align-items: center;
@@ -563,10 +572,4 @@ font-size: 32px;
   .down {
     width: 480px !important;
   }
-}
-.tr {
-  background-color:  red !important;
-}
-.th {
- background-color: blue !important;
 }
