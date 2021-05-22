@@ -21,13 +21,13 @@
       </head>
 <body>
     <!--NAVIGATION BAR-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!--<nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="images/Medict_logo_DARK.png" width=100%></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="service.html">SERVICE</a>
@@ -47,13 +47,42 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/Medict_logo_DARK.png" width=100%></a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse navigation" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="service.html">SERVICE <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TRANSLATOR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROFILE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/Search.png" width=100%></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+      </header>
     <!--Jumbotron/Hero-->
     <div class="container papahero pt-5"> 
         <div class="container py-5">
             <h1 class="display-3 fw-bold intro">HI MR. PAPADOPOULOS,</h1>
             <h1 class="display-5 intro">WELCOME BACK.</p>
-            <button class="btn btn-primary btn-lg findtrans" type="button">Find a translator now</button>
+            <div><a href="#appointment"><button class="btn btn-primary btn-lg findtrans" type="button">Find a translator now</button></a></div>
         </div>
         <div>
             <img src="images/papadopoulus.png" class="john">
@@ -74,7 +103,7 @@
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 16%;" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">16%</div>
                 </div>
-                <div class="row flex-nowrap scrolling-wrapper flex-row flex-nowrap pt-3 carddiv">
+                <div class="row flex-nowrap pt-3 carddiv">
                     <div class="col-3 text-center">
                         <div class="card card-block cardscroll blue">
                             <img src="images/scrollcal.png" class="calpic">
@@ -112,7 +141,7 @@
                     </div>
                     <div class="col-3 text-center">
                         <div class="card card-block cardscroll">
-                            <img src="images/scrollreview.png" c;ass="reviewpic">
+                            <img src="images/scrollreview.png" class="reviewpic">
                             <h3 class="px-2">Review Final Info</h3>
                             <p class="px-2">We had a top notch trip from beginning to end.</p>
                         </div>
@@ -122,7 +151,7 @@
         </div>
     </div>
     <!--Book Appointment-->
-    <div class="py-4 text-center appointment">
+    <div id="appointment" class="py-4 text-center appointment">
             <div class="container py-5">
                 <h1 class="display-4">Book Appointment</h1>
                 <p>We had a top notch trip from beginning to end.</p>
@@ -151,7 +180,7 @@
             </div>
     </div>
     <!--Questions?-->
-    <div class="py-4 text-center">
+    <div class="py-4 text-center questionne">
         <div class="p-5 bg-light rounded-3">        
             <div class="container py-4">
                 <h1 class="questiontitle">Questions?</h1>
