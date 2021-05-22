@@ -34,7 +34,7 @@ h1 {
     padding-bottom: 2%;
   }
   h4 {
-  font-family: 'AvenirRegular'
+  font-family: 'AvenirRegular';
   }
   p {
     font-family: "Bebas", sans-serif;
@@ -95,7 +95,7 @@ top: 10px;
 border: white !important;
 }
 .card-header {
-background-color: white !important;
+background-color:transparent !important;
 font-family: "Bebas Neue";
 font-size: 75px;
 }
@@ -139,6 +139,7 @@ font-weight: lighter;
 }
 .navbar {
   background-color: #C2CEDB;
+  font-family: 'AvenirRegular' !important;
 }
 
 .navbar-nav {
