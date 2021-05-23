@@ -55,9 +55,9 @@ h1 {
     display: flex;
     background-image: url("../images/Blocked_Banner_V2.png");
     background-size: cover;
+    height: 700px;
     align-items: center;
     align-content: center;
-    margin-bottom: url("../images/Blocked_Banner_V2.png");
   }
   .container-fluid-3 {
     display: flex;
@@ -84,13 +84,12 @@ min-width: 10vw;
 width: 55vw;
 display: flex;
 float: right;
+top: 200px;
 }
 .carddev {
 width: 80%;
 height: auto;
-position: absolute;
-left: 150px;
-top: 10px;
+left: 100px;
 border: white !important;
 }
 .card-header {
